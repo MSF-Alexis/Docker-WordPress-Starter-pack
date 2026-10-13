@@ -1,3 +1,4 @@
+name : ${NAME:?NAME manquant dans .env}
 services:
   mariadb-dev:
     image: mariadb:latest
