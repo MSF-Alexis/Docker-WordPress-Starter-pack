@@ -1,6 +1,68 @@
 .env
 .env.*
 !.env.example
-
+.htaccess
+*/
 secrets/
 backups/
+
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-content/wflogs/*
+/wp-content/updraft/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Configuration
+wp-config.php
+/wp-content/wp-uploads/
+# Example themes
+/wp-content/themes/twenty*/
+/wp-content/cache
+/wp-content/ewww
+/wp-content/plugins/*
+!/wp-content/plugins/advanced-custom-fields/
+!/wp-content/plugins/preprod-protection/
+# === ! A retirer après avoir montrer à Nicolas comment injecter du custom JS ! === 
+!/wp-content/themes/msf/
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Uploads
+/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+.htaccess
+Configuration_dns_old.png
+# Environnements virtuels
+/.wp-cli/
+/.idea/
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/wp-content/plugins
+/wp-content/wflogs/config*.php
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/wp-content/themes
+
+# Others
+/ressources-wp-site
+/wp-content/themes/*/vendor
+.php-cs-fixer.cache
