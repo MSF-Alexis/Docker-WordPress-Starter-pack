@@ -30,7 +30,6 @@ wp-config.php
 /wp-content/plugins/*
 !/wp-content/plugins/advanced-custom-fields/
 !/wp-content/plugins/preprod-protection/
-# === ! A retirer après avoir montrer à Nicolas comment injecter du custom JS ! === 
 !/wp-content/themes/msf/
 
 # Example plugin
